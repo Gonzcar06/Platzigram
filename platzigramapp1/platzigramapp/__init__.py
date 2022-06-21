@@ -1,0 +1,1 @@
+#declara platzigramapp como un modulo de python
