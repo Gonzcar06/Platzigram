@@ -142,4 +142,6 @@ MEDIA_ROOT = BASE_DIR / 'media'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-LOGIN_URL = '/users/login/' ##el decorador nos direcciona aqui , decorador de login sesion activa
+LOGIN_URL = '/users//login/' ##el decorador nos direcciona aqui , decorador de login sesion activa
+LOGIN_REDIRECT_URL = '/'#lo que se agrega al usar login en clases, DOCUMENTACION!!!!
+LOGOUT_REDIRECT_URL = LOGIN_URL#lo que se agrega al logout DOCUMENTACION!!! 
